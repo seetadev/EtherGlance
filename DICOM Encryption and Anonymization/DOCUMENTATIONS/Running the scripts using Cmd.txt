@@ -1,0 +1,902 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\Users\hp>cd hospitalcopy
+
+C:\Users\hp\hospitalcopy>python foldernames.py
+
+C:\Users\hp\hospitalcopy>cd..
+
+C:\Users\hp>cd Radpngcopy
+
+C:\Users\hp\Radpngcopy>cd Copy
+
+C:\Users\hp\Radpngcopy\Copy>python anonymizecopies.py
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Found
+Now reading file: aarohi FHL5.637047-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 AAROHI  VERMA  \cell
+AAROHI
+
+VERMA
+Now reading file: ajay kumar FHL5.637954-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 AJAY  KUMAR  \cell
+AJAY
+
+KUMAR
+Now reading file: ajay sabh FHL5.637213-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 AJAY  SABHARWAL  \cell
+AJAY
+
+SABHARWAL
+Now reading file: akhileshwar FHL5.574614-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 AKHILESHWAR  PRASAD  \cell
+AKHILESHWAR
+
+PRASAD
+Now reading file: akshi FHL5.472821-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 AKSHI  AGARWAL  \cell
+AKSHI
+
+AGARWAL
+Now reading file: anand FHL5.637321-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 ANAND KUMAR RAY  \cell
+ANAND
+KUMAR
+RAY
+Now reading file: anju agarwal FHL5.637284-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid12602804 \hich\af37\dbch\af31505\loch\f37 ANJU  AGARWAL  \cell
+ANJU
+
+AGARWAL
+Now reading file: arifmailkFHL5.637413-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 ARIF  MALIK  \cell
+ARIF
+
+MALIK
+Now reading file: asha FHL5.379060-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 ASHA  SHARMA  \cell
+ASHA
+
+SHARMA
+Now reading file: ashok irwin FHL5.637249-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 ASHOK  IRWIN  \cell
+ASHOK
+
+IRWIN
+Now reading file: azhar FHL5.635883-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 AZHAR  HUSSAIN  \cell
+AZHAR
+
+HUSSAIN
+Now reading file: balwant FHL5.627387-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 BALWANT SINGH GAIRA  \cell
+BALWANT
+SINGH
+GAIRA
+Now reading file: balwant singh gaira FHL5.627387-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 BALWANT SINGH GAIRA  \cell
+BALWANT
+SINGH
+GAIRA
+Now reading file: bhagwan FHL5.637003-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 BHAGWAN SAHAI MEENA  \cell
+BHAGWAN
+SAHAI
+MEENA
+Now reading file: bhaskar FHL5.608353-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 BHASKAR    \cell
+BHASKAR
+
+
+Now reading file: bhudev FHL5.635484-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 BHUDEV  PRASAD  \cell
+BHUDEV
+
+PRASAD
+Now reading file: bijendra singh FHL5.636780-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 BIJENDRA SINGH NEHRA  \cell
+BIJENDRA
+SINGH
+NEHRA
+Now reading file: chander FHL5.550868-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid12602804 \hich\af37\dbch\af31505\loch\f37 RAJIV SAMBHI 63Y/M  \cell
+RAJIV
+SAMBHI
+63Y/M
+Now reading file: dharam vir FHL5.531239-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 DHARAM VIR SINGH
+DHARAM
+VIR
+SINGH
+Now reading file: farzana FHL5.635396-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 FARZANA  IJAZ  \cell
+FARZANA
+
+IJAZ
+Now reading file: hari bhai FHL5.605259-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 HARI BHAI  LALWANI
+HARI
+BHAI
+
+Now reading file: harinder FHL5.637945-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid12602804 \hich\af37\dbch\af31505\loch\f37 HARINDER  SINGH  \cell
+HARINDER
+
+SINGH
+Now reading file: jairam FHL5.583064-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 JAIRAM  UPADHYAY  \cell
+JAIRAM
+
+UPADHYAY
+Now reading file: jamotri FHL5.634374-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 JAMOTRI  DEVI  \cell
+JAMOTRI
+
+DEVI
+Now reading file: js bist FHL5.585943-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 J S BIST
+J
+S
+BIST
+Now reading file: jskandra FHL5.464707-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 J.S  KANDRA  \cell
+J.S
+
+KANDRA
+Now reading file: kamlesh FHL5.483463-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 KAMLESH DEVI
+KAMLESH
+DEVI
+
+Now reading file: kamlesh koushik FHL5.497775-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 KAMLESH  KOUSHIK  \cell
+KAMLESH
+
+KOUSHIK
+Now reading file: kanchhi FHL5.636757-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 KANCHHI LAL  SINGHAL
+KANCHHI
+LAL
+
+Now reading file: karan singh FHL5.399887-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid6126958 \hich\af37\dbch\af31505\loch\f37 KARAN  SINGH  \cell
+KARAN
+
+SINGH
+Now reading file: karishma FHL5.466966-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 KARISHMA  SRIVASTAVA  \cell
+KARISHMA
+
+SRIVASTAVA
+Now reading file: khin FHL5.591146-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 KHIN   NANDAR
+KHIN
+
+
+Now reading file: kundan FHL5.629921-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 KUNDAN  SINGH  \cell
+KUNDAN
+
+SINGH
+Now reading file: kusturi lal FHL5.50472-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 KUSTURI LAL ABBI  \cell
+KUSTURI
+LAL
+ABBI
+Now reading file: lata FHL5.186018-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 LATA  SUNDARAM  \cell
+LATA
+
+SUNDARAM
+Now reading file: lokesh FHL5.637608-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 LOKESH  BHADANA  \cell
+LOKESH
+
+BHADANA
+Now reading file: mahendra FHL5.637880-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 MAHENDRA NARAYAN JHA  \cell
+MAHENDRA
+NARAYAN
+JHA
+Now reading file: maheshwari FHL5.578298-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 MAHESHWARI  TYAGI  \cell
+MAHESHWARI
+
+TYAGI
+Now reading file: mamchand FHL5.636608-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 MAMCHAND    \cell
+MAMCHAND
+
+
+Now reading file: manipathak2 FHL5.636193-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid6126958 \hich\af37\dbch\af31505\loch\f37 rajmani  pathak  \cell
+rajmani
+
+pathak
+Now reading file: manju FHL5.638105-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 MANJU  BAWEJA  \cell
+MANJU
+
+BAWEJA
+Now reading file: manoj FHL5.180138-2.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 MANOJ  KUMAR  \cell
+MANOJ
+
+KUMAR
+Now reading file: mngoswami FHL5.568074-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 M N GOSWAMI
+M
+N
+GOSWAMI
+Now reading file: mohit singh FHL5.630084-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 MOHIT  SINGH  \cell
+MOHIT
+
+SINGH
+Now reading file: ms parihar FHL5.604238-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 M S PARIHAR
+M
+S
+PARIHAR
+Now reading file: mujjamil FHL5.637948-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 MUJJAMIL  KHAN  \cell
+MUJJAMIL
+
+KHAN
+Now reading file: nabi FHL5.634767-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 NABI NOOR KHAN  \cell
+NABI
+NOOR
+KHAN
+Now reading file: nidhi FHL5.630269-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 B/O  NIDHI TIWARY
+B/O
+
+NIDHI
+Now reading file: nomita FHL5.637961-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid6126958 \hich\af37\dbch\af31505\loch\f37 NOMITA  BANERJEE  \cell
+NOMITA
+
+BANERJEE
+Now reading file: paramjeet FHL5.628647-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 Paramjeet  Kaur  \cell
+Paramjeet
+
+Kaur
+Now reading file: prakashchandrajainFHL5.529773-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 PRAKASH CHANDRA JAIN  \cell
+PRAKASH
+CHANDRA
+JAIN
+Now reading file: pramjeet FHL5.628647-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 Pramjeet  Kaur  \cell
+Pramjeet
+
+Kaur
+Now reading file: promod FHL5.636896-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 PROMOD  KUMAR  \cell
+PROMOD
+
+KUMAR
+Now reading file: purnima FHL5.398900-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 PURNIMA  SEXENA  \cell
+PURNIMA
+
+SEXENA
+Now reading file: raj juneja FHL5.636229-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAJ  JUNEJA  \cell
+RAJ
+
+JUNEJA
+Now reading file: rajbala devi FHL5.635342-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAJBALA  DEVI  \cell
+RAJBALA
+
+DEVI
+Now reading file: rajbala FHL5.635342-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAJBALA  DEVI  \cell
+RAJBALA
+
+DEVI
+Now reading file: rajender FHL5.626806-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAJENDER SINGH GAHLAUT  \cell
+RAJENDER
+SINGH
+GAHLAUT
+Now reading file: rajender singh FHL5.626806-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAJENDER SINGH GAHLAUT  \cell
+RAJENDER
+SINGH
+GAHLAUT
+Now reading file: rajiv sambhi FHL5.636005-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAJIV  SAMBHI  \cell
+RAJIV
+
+SAMBHI
+Now reading file: rajkumari FHL5.395097-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAJ  KUMARI  \cell
+RAJ
+
+KUMARI
+Now reading file: ram belas FHL5.592733-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAM BELAS YADAV  \cell
+RAM
+BELAS
+YADAV
+Now reading file: ram chandra FHL5.635530-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAMA CHANDRA MURTHY  \cell
+RAMA
+CHANDRA
+MURTHY
+Now reading file: ram janki dubey FHL5.361347-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAM  JANKI DUBEY
+RAM
+
+JANKI
+Now reading file: ram janki FHL5.361347-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAM  JANKI DUBEY
+RAM
+
+JANKI
+Now reading file: ram kumar FHL5.630418-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAM  KUMAR  \cell
+RAM
+
+KUMAR
+Now reading file: ram murti FHL5.637946-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAM  MURTI  \cell
+RAM
+
+MURTI
+Now reading file: ram naresh FHL5.637268-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAM  NARESH  \cell
+RAM
+
+NARESH
+Now reading file: ramakant FHL5.636269-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAMAKANT  SINGH  \cell
+RAMAKANT
+
+SINGH
+Now reading file: ramashish FHL5.226063-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid6126958 \hich\af37\dbch\af31505\loch\f37 RAMASHISH  SHARMA  \cell
+RAMASHISH
+
+SHARMA
+Now reading file: rampal FHL5.636276-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAMPAL  SINGH  \cell
+RAMPAL
+
+SINGH
+Now reading file: ravikumar FHL5.637837-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 RAVI KUMAR SINGH  \cell
+RAVI
+KUMAR
+SINGH
+Now reading file: reena sharma FHL5.274620-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 REENA  SHARMA  \cell
+REENA
+
+SHARMA
+Now reading file: rekha jain FHL5.637569-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 REKHA  JAIN  \cell
+REKHA
+
+JAIN
+Now reading file: rk aggarwal FHL5.638249-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 R K AGGARWAL  \cell
+R
+K
+AGGARWAL
+Now reading file: rkgupta FHL5.294085-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid6126958 \hich\af37\dbch\af31505\loch\f37 R K GUPTA  \cell
+R
+K
+GUPTA
+Now reading file: sagheer FHL5.556336-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SAGHEER  AHMED KHAN
+SAGHEER
+
+AHMED
+Now reading file: samiabdalla FHL5.636819-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SAMI ABDALLA  BASHAR ABDELRAHIM
+SAMI
+ABDALLA
+
+Now reading file: sanjaykumar FHL5.638082-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid6126958 \hich\af37\dbch\af31505\loch\f37 SANJAY  KUMAR  \cell
+SANJAY
+
+KUMAR
+Now reading file: sarla agarwal FHL5.380040-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SARLA  AGARWAL  \cell
+SARLA
+
+AGARWAL
+Now reading file: sarlamishra FHL5.500626-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SARLA  MISRA  \cell
+SARLA
+
+MISRA
+Now reading file: sarvesh FHL5.637909-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SARVESH  KUMAR  \cell
+SARVESH
+
+KUMAR
+Now reading file: shail FHL5.576979-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid12602804 \hich\af37\dbch\af31505\loch\f37 SHAIL  BALA GUPTA
+SHAIL
+
+BALA
+Now reading file: shameem FHL5.523706-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SHAMEEM  BANO  \cell
+SHAMEEM
+
+BANO
+Now reading file: shashi FHL5.638177-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SHASHI  PRAKASH  \cell
+SHASHI
+
+PRAKASH
+Now reading file: sheela gupta FHL5.638110-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SHEELA  GUPTA  \cell
+SHEELA
+
+GUPTA
+Now reading file: shivangi FHL5.637570-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SHIVANGI  ARORA  \cell
+SHIVANGI
+
+ARORA
+Now reading file: shriniwas FHL5.592725-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SRI NIWAS SHARMA  \cell
+SRI
+NIWAS
+SHARMA
+Now reading file: sktanejaFHL5.438647-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 S K  TANEJA
+S
+K
+
+Now reading file: sobir FHL5.638129-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SOBIR  SINGH  \cell
+SOBIR
+
+SINGH
+Now reading file: sohanviri FHL5.638309-1.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SOHANVIRI    \cell
+SOHANVIRI
+
+
+Now reading file: sudeshna FHL5.601165-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SUDESHNA  JOARDAR  \cell
+SUDESHNA
+
+JOARDAR
+Now reading file: sudha FHL5.637525-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SUDHA  SAXENA  \cell
+SUDHA
+
+SAXENA
+Now reading file: sudhir FHL5.636268-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SUDHIR  MEHROTRA  \cell
+SUDHIR
+
+MEHROTRA
+Now reading file: sunita FHL5.610551-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SUNITA  CHAUDHARY  \cell
+SUNITA
+
+CHAUDHARY
+Now reading file: surendra sarna FHL5.395647-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 SURENDRA  SARNA  \cell
+SURENDRA
+
+SARNA
+Now reading file: tanuja FHL5.100556-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 TANUJA  GAUTAM  \cell
+TANUJA
+
+GAUTAM
+Now reading file: tikam FHL5.501231-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 TIKAM  SINGH  \cell
+TIKAM
+
+SINGH
+Now reading file: vaibhav FHL5.638097-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VAIBHAV  SRIVASTAVA  \cell
+VAIBHAV
+
+SRIVASTAVA
+Now reading file: vanita FHL5.637919-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VANITA  SINGH  \cell
+VANITA
+
+SINGH
+Now reading file: ved FHL5.214845-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VED PRAKASH GAUR  \cell
+VED
+PRAKASH
+GAUR
+Now reading file: vedwati FHL5.175501-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VEDWATI  GAUTAM  \cell
+VEDWATI
+
+GAUTAM
+Now reading file: vijay FHL5.638101-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VIJAY  LAXMI  \cell
+VIJAY
+
+LAXMI
+Now reading file: vikas FHL5.207502-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VIKAS  AGARWAL  \cell
+VIKAS
+
+AGARWAL
+Now reading file: vikrant singh FHL5.637025-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VIKRANT SINGH SHISHODIA  \cell
+VIKRANT
+SINGH
+SHISHODIA
+Now reading file: vimla tiwari FHL5.522585-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 VIMLA  TIWARI  \cell
+VIMLA
+
+TIWARI
+Now reading file: yashviyadav FHL5.542632-0.html
+Replacing Name:\cell }{\rtlch\fcs1 \af37\afs24 \ltrch\fcs0 \fs24\lang9\langfe16393\langnp9\insrsid8725410 \hich\af37\dbch\af31505\loch\f37 YASHVI  YADAV  \cell
+YASHVI
+
+YADAV
+
+C:\Users\hp\Radpngcopy\Copy>cd..
+
+C:\Users\hp\Radpngcopy>cd..
+
+C:\Users\hp>cd RadImagesFilpng
+
+C:\Users\hp\RadImagesFilpng>del /s /q "*.html"
+Deleted file - C:\Users\hp\RadImagesFilpng\F1\aarohi FHL5.637047-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F10\ashok irwin FHL5.637249-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F100\ved FHL5.214845-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F102\vedwati FHL5.175501-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F103\vijay FHL5.638101-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F105\vikas FHL5.207502-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F106\vikrant singh FHL5.637025-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F107\vimla tiwari FHL5.522585-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F108\yashviyadav FHL5.542632-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F11\azhar FHL5.635883-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F12\balwant singh gaira FHL5.627387-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F13\balwant FHL5.627387-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F14\bhagwan FHL5.637003-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F15\bhaskar FHL5.608353-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F16\bhudev FHL5.635484-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F17\bijendra singh FHL5.636780-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F18\chander FHL5.550868-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F19\dharam vir FHL5.531239-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F2\ajay kumar FHL5.637954-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F20\farzana FHL5.635396-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F21\hari bhai FHL5.605259-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F22\harinder FHL5.637945-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F23\jairam FHL5.583064-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F24\jamotri FHL5.634374-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F25\js bist FHL5.585943-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F26\jskandra FHL5.464707-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F27\kamlesh FHL5.483463-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F28\kamlesh koushik FHL5.497775-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F29\kanchhi FHL5.636757-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F3\ajay sabh FHL5.637213-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F30\karan singh FHL5.399887-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F31\karishma FHL5.466966-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F32\khin FHL5.591146-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F33\kundan FHL5.629921-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F34\kusturi lal FHL5.50472-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F35\lata FHL5.186018-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F36\lokesh FHL5.637608-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F37\mahendra FHL5.637880-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F38\maheshwari FHL5.578298-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F39\mamchand FHL5.636608-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F4\akhileshwar FHL5.574614-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F40\manju FHL5.638105-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F41\manoj FHL5.180138-2.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F42\mngoswami FHL5.568074-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F43\mohit singh FHL5.630084-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F44\ms parihar FHL5.604238-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F45\mujjamil FHL5.637948-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F46\nabi FHL5.634767-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F47\nidhi FHL5.630269-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F48\nomita FHL5.637961-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F49\paramjeet FHL5.628647-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F5\akshi FHL5.472821-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F50\prakashchandrajainFHL5.529773-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F51\pramjeet FHL5.628647-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F52\promod FHL5.636896-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F53\purnima FHL5.398900-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F54\rajbala FHL5.635342-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F55\rajbala devi FHL5.635342-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F56\rajender FHL5.626806-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F56\rajender singh FHL5.626806-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F57\rajiv sambhi FHL5.636005-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F58\raj juneja FHL5.636229-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F59\rajkumari FHL5.395097-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F6\anand FHL5.637321-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F60\manipathak2 FHL5.636193-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F61\ram kumar FHL5.630418-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F62\ramakant FHL5.636269-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F63\ramashish FHL5.226063-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F64\ram belas FHL5.592733-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F65\ram chandra FHL5.635530-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F66\ram janki dubey FHL5.361347-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F66\ram janki FHL5.361347-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F67\ram murti FHL5.637946-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F68\ram naresh FHL5.637268-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F69\rampal FHL5.636276-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F7\anju agarwal FHL5.637284-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F70\ravikumar FHL5.637837-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F71\reena sharma FHL5.274620-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F72\rekha jain FHL5.637569-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F73\rk aggarwal FHL5.638249-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F74\rkgupta FHL5.294085-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F75\sagheer FHL5.556336-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F76\samiabdalla FHL5.636819-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F77\sanjaykumar FHL5.638082-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F78\sarla agarwal FHL5.380040-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F79\sarlamishra FHL5.500626-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F8\arifmailkFHL5.637413-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F80\sarvesh FHL5.637909-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F81\shail FHL5.576979-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F82\shameem FHL5.523706-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F83\shashi FHL5.638177-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F84\sheela gupta FHL5.638110-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F85\shivangi FHL5.637570-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F86\shriniwas FHL5.592725-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F87\sktanejaFHL5.438647-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F88\sobir FHL5.638129-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F89\sohanviri FHL5.638309-1.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F9\asha FHL5.379060-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F91\sudeshna FHL5.601165-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F92\sudha FHL5.637525-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F93\sudhir FHL5.636268-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F94\sunita FHL5.610551-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F95\surendra sarna FHL5.395647-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F96\tanuja FHL5.100556-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F97\tikam FHL5.501231-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F98\vaibhav FHL5.638097-0.html
+Deleted file - C:\Users\hp\RadImagesFilpng\F99\vanita FHL5.637919-0.html
+
+C:\Users\hp\RadImagesFilpng>cd..
+
+C:\Users\hp>cd..
+
+C:\Users>cd Radimagescopy
+The system cannot find the path specified.
+
+C:\Users>cd Radpngcopy
+The system cannot find the path specified.
+
+C:\Users>cd hp
+
+C:\Users\hp>cd Radpngcopy
+
+C:\Users\hp\Radpngcopy>cd copy
+
+C:\Users\hp\Radpngcopy\Copy>filecopy
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+        1 file(s) copied.
+The system cannot find the path specified.
+        0 file(s) copied.
+
+C:\Users\hp\Radpngcopy\Copy>cd..
+
+C:\Users\hp\Radpngcopy>
