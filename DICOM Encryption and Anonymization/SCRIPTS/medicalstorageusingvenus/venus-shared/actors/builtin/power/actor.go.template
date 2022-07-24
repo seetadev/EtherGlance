@@ -1,0 +1,113 @@
+// FETCHED FROM LOTUS: builtin/power/actor.go.template
+
+package power
+
+import (
+	"github.com/filecoin-project/go-address"
+	"github.com/filecoin-project/go-state-types/big"
+	"github.com/filecoin-project/venus/venus-shared/actors"
+	cbg "github.com/whyrusleeping/cbor-gen"
+	"fmt"
+
+	"github.com/filecoin-project/go-state-types/abi"
+	"github.com/filecoin-project/go-state-types/cbor"
+
+	"github.com/filecoin-project/venus/venus-shared/actors/adt"
+	"github.com/filecoin-project/venus/venus-shared/actors/builtin"
+	types "github.com/filecoin-project/venus/venus-shared/internal"
+
+{{range .versions}}
+    {{if (le . 7)}}
+	    builtin{{.}} "github.com/filecoin-project/specs-actors{{import .}}actors/builtin"
+	{{else}}
+        builtin{{.}} "github.com/filecoin-project/go-state-types/builtin"
+    {{end}}
+{{end}}
+)
+
+var (
+	Address = builtin{{.latestVersion}}.StoragePowerActorAddr
+	Methods = builtin{{.latestVersion}}.MethodsPower
+)
+
+func Load(store adt.Store, act *types.Actor) (State, error) {
+	if name, av, ok := actors.GetActorMetaByCode(act.Code); ok {
+       if name != actors.PowerKey {
+          return nil, fmt.Errorf("actor code is not power: %s", name)
+       }
+
+       switch av {
+            {{range .versions}}
+                {{if (ge . 8)}}
+                case actors.Version{{.}}:
+                     return load{{.}}(store, act.Head)
+                 {{end}}
+            {{end}}
+       }
+	}
+
+	switch act.Code {
+{{range .versions}}
+    {{if (le . 7)}}
+        case builtin{{.}}.StoragePowerActorCodeID:
+            return load{{.}}(store, act.Head)
+    {{end}}
+{{end}}
+	}
+
+	return nil, fmt.Errorf("unknown actor code %s", act.Code)
+}
+
+func MakeState(store adt.Store, av actors.Version) (State, error) {
+	switch av {
+{{range .versions}}
+	case actors.Version{{.}}:
+		return make{{.}}(store)
+{{end}}
+}
+	return nil, fmt.Errorf("unknown actor version %d", av)
+}
+
+type State interface {
+	cbor.Marshaler
+
+	TotalLocked() (abi.TokenAmount, error)
+	TotalPower() (Claim, error)
+	TotalCommitted() (Claim, error)
+	TotalPowerSmoothed() (builtin.FilterEstimate, error)
+	GetState() interface{}
+
+	// MinerCounts returns the number of miners. Participating is the number
+	// with power above the minimum miner threshold.
+	MinerCounts() (participating, total uint64, err error)
+	MinerPower(address.Address) (Claim, bool, error)
+	MinerNominalPowerMeetsConsensusMinimum(address.Address) (bool, error)
+	ListAllMiners() ([]address.Address, error)
+	ForEachClaim(func(miner address.Address, claim Claim) error) error
+	ClaimsChanged(State) (bool, error)
+
+	// Testing or genesis setup only
+	SetTotalQualityAdjPower(abi.StoragePower) error
+	SetTotalRawBytePower(abi.StoragePower) error
+	SetThisEpochQualityAdjPower(abi.StoragePower) error
+	SetThisEpochRawBytePower(abi.StoragePower) error
+
+	// Diff helpers. Used by Diff* functions internally.
+	claims() (adt.Map, error)
+	decodeClaim(*cbg.Deferred) (Claim, error)
+}
+
+type Claim struct {
+	// Sum of raw byte power for a miner's sectors.
+	RawBytePower abi.StoragePower
+
+	// Sum of quality adjusted power for a miner's sectors.
+	QualityAdjPower abi.StoragePower
+}
+
+func AddClaims(a Claim, b Claim) Claim {
+	return Claim{
+		RawBytePower:    big.Add(a.RawBytePower, b.RawBytePower),
+		QualityAdjPower: big.Add(a.QualityAdjPower, b.QualityAdjPower),
+	}
+}

@@ -1,0 +1,63 @@
+{
+  "t0106": {
+    "ID": "t0106",
+    "Owner": "t3s3g5ktor5jgqpwfhxufvpk5g7nfsoif5rhny33ibmxpkndalckm6gbknvyuaymfnc764s6mixu7z62xm7yza",
+    "Worker": "t3s3g5ktor5jgqpwfhxufvpk5g7nfsoif5rhny33ibmxpkndalckm6gbknvyuaymfnc764s6mixu7z62xm7yza",
+    "PeerId": "12D3KooWQrDvsWxU1dN5udhbJbxyNgj4wr4mFvrkjC9HJfhEFypj",
+    "MarketBalance": "0",
+    "PowerBalance": "0",
+    "SectorSize": 2048,
+    "Sectors": [
+      {
+        "CommR": {
+          "/": "bagboea4b5abcaziacbne3v3hh6bhgatc3dop72pnztj4xtvmppj4sq3jnieqoesx"
+        },
+        "CommD": {
+          "/": "baga6ea4seaqc3dgscuewdd76uubtaki6usrdki7b4os7otho2downpjspp2ruii"
+        },
+        "SectorID": 0,
+        "Deal": {
+          "PieceCID": {
+            "/": "baga6ea4seaqc3dgscuewdd76uubtaki6usrdki7b4os7otho2downpjspp2ruii"
+          },
+          "PieceSize": 2048,
+          "VerifiedDeal": false,
+          "Client": "t3s3g5ktor5jgqpwfhxufvpk5g7nfsoif5rhny33ibmxpkndalckm6gbknvyuaymfnc764s6mixu7z62xm7yza",
+          "Provider": "t0106",
+          "Label": "0",
+          "StartEpoch": 0,
+          "EndEpoch": 9001,
+          "StoragePricePerEpoch": "0",
+          "ProviderCollateral": "0",
+          "ClientCollateral": "0"
+        },
+        "ProofType": 0
+      },
+      {
+        "CommR": {
+          "/": "bagboea4b5abcal4itszbnmkiad3iasaqrndnejqqooxiiidu5ntgkybviipf5lid"
+        },
+        "CommD": {
+          "/": "baga6ea4seaqmxjiljjcnscjhp2rc45tfjx5itjhpszsnaims7rzsdo5zlafqspq"
+        },
+        "SectorID": 1,
+        "Deal": {
+          "PieceCID": {
+            "/": "baga6ea4seaqmxjiljjcnscjhp2rc45tfjx5itjhpszsnaims7rzsdo5zlafqspq"
+          },
+          "PieceSize": 2048,
+          "VerifiedDeal": false,
+          "Client": "t3s3g5ktor5jgqpwfhxufvpk5g7nfsoif5rhny33ibmxpkndalckm6gbknvyuaymfnc764s6mixu7z62xm7yza",
+          "Provider": "t0106",
+          "Label": "1",
+          "StartEpoch": 0,
+          "EndEpoch": 9001,
+          "StoragePricePerEpoch": "0",
+          "ProviderCollateral": "0",
+          "ClientCollateral": "0"
+        },
+        "ProofType": 0
+      }
+    ]
+  }
+}

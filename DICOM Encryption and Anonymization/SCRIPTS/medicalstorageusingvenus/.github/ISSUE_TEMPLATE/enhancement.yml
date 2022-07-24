@@ -1,0 +1,56 @@
+name: 功能特性 / Enhancement
+description:  "提议新功能，或改善已有功能 / New feature request or enhancement suggestion"
+labels: [C-enhancement, community]
+body:
+- type: checkboxes
+  attributes:
+    label: 链服务模块 / Chain Service Components
+    description: |
+      选择涉及模块。
+      Please select the related components.
+    options:
+      - label: venus
+        required: false
+      - label: venus-auth
+        required: false
+      - label: venus-gateway
+        required: false
+      - label: venus-messager
+        required: false
+      - label: venus-miner
+        required: false
+      - label: 文档 / docs
+        required: false
+- type: checkboxes
+  attributes:
+    label: 订单服务模块 / Deal Service Components
+    description: |
+      选择涉及模块。
+      Please select the related components.
+    options:
+      - label: venus-market
+        required: false
+      - label: 文档 / docs
+        required: false
+- type: checkboxes
+  attributes:
+    label: 算力服务模块 / Storage Power Service Components
+    description: |
+      选择涉及模块。
+      Please select the related components.
+    options:
+      - label: venus-sector-manager
+        required: false
+      - label: venus-worker
+        required: false
+      - label: 文档 / docs
+        required: false
+- type: textarea
+  id: description
+  attributes:
+    label: 描述 / Description
+    placeholder: |
+      是否可以考虑...
+      I suggest ...
+  validations:
+    required: true
