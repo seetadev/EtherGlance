@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Rhinestone</title>
+        <link rel="stylesheet" href="{{ static_url('styles.css') }}" type="text/css"/>
+        <link rel="stylesheet" href="{{ static_url('bootstrap.css') }}" type="text/css"/>
+        <script type="text/javascript" src="{{ static_url('jquery-2.1.4.min.js') }}"></script>
+        <script type="text/javascript" src="{{ static_url('bootstrap.min.js') }}"></script>
+        <script type="text/javascript" src="{{ static_url('rhinestone-main-script.js') }}"></script>
+    </head>
+    <body>
+        <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="/home">Rhinestone</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="row" style="margin-top:100px;">
+                <div class="col-lg-6">
+                    <div class="panel panel-default">
+                        <div class="panel-body">
+                            User: <b>{{arguments["user"]}}</b><br>
+                            App-Id: <b>{{arguments["app-id"]}}</b>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
