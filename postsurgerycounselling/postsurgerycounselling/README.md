@@ -1,12 +1,4 @@
-# React Chat Example
-
-![Test](https://github.com/xmtp/example-chat-react/actions/workflows/test.yml/badge.svg)
-![Lint](https://github.com/xmtp/example-chat-react/actions/workflows/lint.yml/badge.svg)
-![Build](https://github.com/xmtp/example-chat-react/actions/workflows/build.yml/badge.svg)
-
-![x-red-sm](https://user-images.githubusercontent.com/510695/163488403-1fb37e86-c673-4b48-954e-8460ae4d4b05.png)
-
-**Example chat application demonstrating the core concepts and capabilities of the XMTP client SDK**
+**Post surgery counselling chat application demonstrating the core concepts and capabilities using the XMTP client SDK**
 
 This application is built with React, [Next.js](https://nextjs.org/), and the [`xmtp-js` client SDK](https://github.com/xmtp/xmtp-js).
 
@@ -14,7 +6,7 @@ Use the application to send and receive messages using the XMTP `dev` network en
 
 This application is maintained by [XMTP Labs](https://xmtp.com) and distributed under [MIT License](./LICENSE) for learning about and developing applications built with XMTP, a messaging protocol and decentralized communication network for blockchain wallets. The application has not undergone a formal security audit.
 
-## Getting Started
+## Instructions
 
 ### Configure Infura
 
