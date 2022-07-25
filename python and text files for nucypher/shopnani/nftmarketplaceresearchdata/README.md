@@ -1,7 +1,9 @@
 ## Medical DICOM files (XRays, CT Scans, MRIs, Nuclear Medicine) NFT marketplace built with Polygon, Solidity, IPFS, & Next.js
 
 
-This is my first attempt to develop Medical DICOM files (XRays, CT Scans, MRIs, Nuclear Medicine) NFT marketplace utilzing the strengths of Polygon, Solidity, IPFS, & Next.js[Building a Full Stack NFT Marketplace on Ethereum with Polygon](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb)
+This is my first attempt to develop Medical DICOM files (XRays, CT Scans, MRIs, Nuclear Medicine) NFT marketplace utilzing the strengths of Polygon, Solidity, IPFS, & Next.js
+Reference tutorial and learning lesson to bootstrap this development after the dicom files are queried and retrieved from Orthanc PACS server.
+[Building a Full Stack NFT Marketplace on Ethereum with Polygon](https://dev.to/dabit3/building-scalable-full-stack-apps-on-ethereum-with-polygon-2cfb)
 
 ### Running this project
 
