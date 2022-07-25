@@ -1,4 +1,5 @@
-# Nft Showcases
+# Medical NFT Across Networks
+# This is my first attempt to develop a medical claim system utilizing NFTs across networks used by TPAs and patients inspired by a beautiful project namely Nft Showcases
 A dapp where you can see all NFTs from wallet address in different networks.
 
 ## Features
