@@ -1,22 +1,7 @@
-<p align="center">
-  <a href="https://venus.filecoin.io/Overview.html" title="Filecoin Docs">
-    <img src="documentation/images/venus_logo_big2.jpg" alt="Project Venus Logo" width="330" />
-  </a>
-</p>
+<h1 align="center">Project Venus for distributed storage of medical dicom files (XRays, CT Scan, MRI, Nuclear Medicine- 启明星</h1>
 
 
-
-<h1 align="center">Project Venus - 启明星</h1>
-
-<p align="center">
-  <a href="https://circleci.com/gh/filecoin-project/venus"><img src="https://circleci.com/gh/filecoin-project/venus.svg?style=svg"></a>
-  <a href="https://github.com/filecoin-project/venus/releases/latest"><img src="https://img.shields.io/endpoint.svg?color=brightgreen&style=flat&logo=GitHub&url=https://raw.githubusercontent.com/filecoin-project/go-filecoin-badges/master/user-devnet.json"></a>
-  <a href="https://github.com/filecoin-project/venus/releases"><img src="https://img.shields.io/endpoint.svg?color=blue&style=flat&logo=GitHub&url=https://raw.githubusercontent.com/filecoin-project/go-filecoin-badges/master/nightly-devnet.json" /></a>  
-  <a href="https://github.com/filecoin-project/venus/releases"><img src="https://img.shields.io/endpoint.svg?color=brightgreen&style=flat&logo=GitHub&url=https://raw.githubusercontent.com/filecoin-project/go-filecoin-badges/master/staging-devnet.json" /></a>
-  <br>
-</p>
-
-Venus is an implementation of the Filecoin Distributed Storage Network. For more details about Filecoin, check out the [Filecoin Spec](https://spec.filecoin.io).
+We are using Venus, an implementation of the Filecoin Distributed Storage Network, for distributed storage of medical dicom files (XRays, CT Scan, MRI, Nuclear Medicine after anonmyization of data from PyDICOM library. 
 
 ## Building & Documentation
 
