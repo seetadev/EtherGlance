@@ -46,7 +46,7 @@ npx hardhat node
 npx hardhat run scripts/deploy.js --network localhost
 ```
 
-5. Update __src/App.js__ with the values of your contract addresses (`greeterAddress` and `tokenAddress`)
+5. Update __src/App.js__ with the values of your contract addresses (`dicomgreeterAddress` and `tokenAddress`)
 
 6. Run the app
 
