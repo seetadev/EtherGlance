@@ -1,0 +1,30 @@
+.user-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-item-body {
+  display: flex;
+  flex-direction: row;
+}
+.user-item-body-static {
+  margin-top: 2rem;
+  font-weight: 500;
+  line-height: 0;
+  color: #383838;
+  padding-bottom: 1rem;
+  width: 30%;
+  font-size: 15px;
+}
+.user-item-body-var {
+  margin-top: 2rem;
+  font-weight: 600;
+  line-height: 0;
+  color: #0f1b38;
+  padding-bottom: 1rem;
+  font-size: 16px;
+}
+
+.disclaimer {
+  margin-top: 4rem;
+}

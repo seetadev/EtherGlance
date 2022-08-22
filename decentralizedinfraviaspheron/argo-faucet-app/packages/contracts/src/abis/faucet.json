@@ -1,0 +1,302 @@
+[{
+    "constant": false,
+    "inputs": [{
+            "name": "_token",
+            "type": "address"
+        },
+        {
+            "name": "_amount",
+            "type": "uint256"
+        }
+    ],
+    "name": "EmergencyWithdrawERC20",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+},
+{
+    "constant": true,
+    "inputs": [{
+        "name": "_token",
+        "type": "address"
+    }],
+    "name": "getQuota",
+    "outputs": [{
+            "name": "period",
+            "type": "uint256"
+        },
+        {
+            "name": "amount",
+            "type": "uint256"
+        }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+    "constant": false,
+    "inputs": [{
+        "name": "_token",
+        "type": "address"
+    }],
+    "name": "withdraw",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+},
+{
+    "constant": true,
+    "inputs": [{
+        "name": "_token",
+        "type": "address"
+    }],
+    "name": "getTotalSupply",
+    "outputs": [{
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+    "constant": true,
+    "inputs": [],
+    "name": "getStartDate",
+    "outputs": [{
+        "name": "",
+        "type": "uint256"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+    "constant": true,
+    "inputs": [],
+    "name": "getOwner",
+    "outputs": [{
+        "name": "",
+        "type": "address"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+    "constant": true,
+    "inputs": [{
+            "name": "_account",
+            "type": "address"
+        },
+        {
+            "name": "_token",
+            "type": "address"
+        }
+    ],
+    "name": "getWithdrawal",
+    "outputs": [{
+            "name": "id",
+            "type": "uint256"
+        },
+        {
+            "name": "amount",
+            "type": "uint256"
+        }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+    "constant": true,
+    "inputs": [{
+        "name": "",
+        "type": "address"
+    }],
+    "name": "checkWithdraw",
+    "outputs": [{
+        "name": "",
+        "type": "bool"
+    }],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+},
+{
+    "constant": false,
+    "inputs": [{
+            "name": "_tokens",
+            "type": "address[]"
+        },
+        {
+            "name": "_periods",
+            "type": "uint256[]"
+        },
+        {
+            "name": "_amounts",
+            "type": "uint256[]"
+        }
+    ],
+    "name": "setQuotas",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+},
+{
+    "constant": false,
+    "inputs": [{
+            "name": "_token",
+            "type": "address"
+        },
+        {
+            "name": "_amount",
+            "type": "uint256"
+        }
+    ],
+    "name": "donate",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+},
+{
+    "constant": false,
+    "inputs": [{
+        "name": "_amount",
+        "type": "uint256"
+    }],
+    "name": "withdrawAmountPerAccount",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+},
+{
+    "constant": false,
+    "inputs": [{
+        "name": "_newOwner",
+        "type": "address"
+    }],
+    "name": "transferOwnership",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+},
+{
+    "inputs": [{
+            "name": "_tokens",
+            "type": "address[]"
+        },
+        {
+            "name": "_periods",
+            "type": "uint256[]"
+        },
+        {
+            "name": "_amounts",
+            "type": "uint256[]"
+        },
+        {
+            "name": "_amountPerAccount",
+            "type": "uint256"
+        }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+},
+{
+    "anonymous": false,
+    "inputs": [{
+            "indexed": true,
+            "name": "token",
+            "type": "address"
+        },
+        {
+            "indexed": false,
+            "name": "period",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "name": "amount",
+            "type": "uint256"
+        }
+    ],
+    "name": "TokenQuotaSet",
+    "type": "event"
+},
+{
+    "anonymous": false,
+    "inputs": [{
+            "indexed": true,
+            "name": "token",
+            "type": "address"
+        },
+        {
+            "indexed": true,
+            "name": "donor",
+            "type": "address"
+        },
+        {
+            "indexed": false,
+            "name": "amount",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "name": "totalSupply",
+            "type": "uint256"
+        }
+    ],
+    "name": "TokensDonated",
+    "type": "event"
+},
+{
+    "anonymous": false,
+    "inputs": [{
+            "indexed": true,
+            "name": "token",
+            "type": "address"
+        },
+        {
+            "indexed": true,
+            "name": "account",
+            "type": "address"
+        },
+        {
+            "indexed": false,
+            "name": "amount",
+            "type": "uint256"
+        },
+        {
+            "indexed": false,
+            "name": "totalSupply",
+            "type": "uint256"
+        }
+    ],
+    "name": "TokensWithdrawn",
+    "type": "event"
+},
+{
+    "anonymous": false,
+    "inputs": [{
+            "indexed": true,
+            "name": "previousOwner",
+            "type": "address"
+        },
+        {
+            "indexed": true,
+            "name": "newOwner",
+            "type": "address"
+        }
+    ],
+    "name": "OwnershipTransferred",
+    "type": "event"
+}
+]
