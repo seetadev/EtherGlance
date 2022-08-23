@@ -29,6 +29,8 @@ Data Transparency : Availability of patient’s medical records across different
 
 A greater and more seamless flow of information within a digital health care infrastructure, created by electronic health records (EHRs), encompasses and leverages digital progress and can transform the way care is delivered and compensated. EHRs helps in improved care coordination. EHRs helps in making health care ecosystem proactive, accessible and authentic. EHRs with the help of computer aided detection will help in early prediction and diagnosis of diseases.
 
+
 We have developed our solution based on a variety of blockchain protocols and solutions.
 
+NFT.Storage: NFT.Storage: We are using NFT.Storage for storing a variety of offchain data like anonymized patient metadata, medication logs and patient registration at the time of hospital visit. We are storing patient logs and metadata using NFT.Storage. Also, Saving/deleting patient metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. 
 
