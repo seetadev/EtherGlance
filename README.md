@@ -32,5 +32,35 @@ A greater and more seamless flow of information within a digital health care inf
 
 We have developed our solution based on a variety of blockchain protocols and solutions.
 
-NFT.Storage: NFT.Storage: We are using NFT.Storage for storing a variety of offchain data like anonymized patient metadata, medication logs and patient registration at the time of hospital visit. We are storing patient logs and metadata using NFT.Storage. Also, Saving/deleting patient metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. 
+NFT.Storage: NFT.Storage: We are using NFT.Storage for storing a variety of offchain data like anonymized patient metadata, medication logs and patient registration at the time of hospital visit. We are storing patient logs and metadata using NFT.Storage. Also, Saving/deleting patient metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. Please visit: https://github.com/seetadev/EtherGlance/tree/main/patientmetadatanftstorage
+
+Spheron: We are developing decentralized patient management user interface with Spheron. Please visit: https://github.com/seetadev/EtherGlance/tree/main/decentralizedinfraviaspheron
+
+
+AWS: We are using AWS S3 for metadata and pdf data, EC2 for tornado + nginx deployment with AWS S3 db (please visit the key workflow apps with AWS backend: http://aspiringapps.com/web/home/patient-signin.html
+http://aspiringapps.com/web/home/medical-notes.html
+http://aspiringapps.com/web/home/medical-invoice.html
+http://aspiringapps.com/web/home/medication-log.html )
+Please visit: https://github.com/seetadev/EtherGlance/tree/main/installation%20docs
+
+
+
+Chainlink: We are connecting offchain data from medical counseling app (please visit the video {screencast decentralized medical counseling portal.mov} at https://drive.google.com/drive/folders/1Pk_JUngaOuO49nFRAn6MJgkvKGnlUA7V to our smart contracts using Chainlink. 
+Please visit: https://github.com/seetadev/EtherGlance/tree/main/Offchaindataconnectviachainlink/ConnectviaChainlinkhardhat
+
+
+
+Fluence Network: We are using the fluence-js peer implementation in Typescript to connect with our ionic apps which uses typescript as the core for handling application logic. We are using Fluence Network as the Web3 cloud computing provider. 
+
+Please visit: https://github.com/seetadev/EtherGlance/tree/main/web3cloudwithfluencejsandionic/web3cloudwithfluencepeer-js
+https://github.com/seetadev/EtherGlance/tree/main/installation%20docs
+
+
+Sequence Wallet: We are utilizing Sequence wallet for handling all extra service payments on top of expenses claimed via mediclaims or insurance. It is our go to wallet for handling counseling payments and third party payments like payments to diagnostic services, pathology services and pharmacy purchases.
+Please visit: https://github.com/seetadev/EtherGlance/tree/main/sequencequickswapforservicefee
+We also plan to integrate QuickSwap with Sequence wallet to ensure that the patient can swap the tokens if needed at the hospital site.
+
+
+
+
 
