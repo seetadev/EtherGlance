@@ -1,5 +1,4 @@
-Demo Dapp
-=========
+Sequence Wallet: We are utilizing Sequence wallet for handling all extra service payments on top of expenses claimed via mediclaims or insurance. It is our go to wallet for handling counseling payments and third party payments like payments to diagnostic services, pathology services and pharmacy purchases. Please visit: https://github.com/seetadev/EtherGlance/tree/main/sequencequickswapforservicefee We also plan to integrate QuickSwap with Sequence wallet to ensure that the patient can swap the tokens if needed at the hospital site.
 
 Dapp example on how to use Sequence Wallet. Covers how to connect, sign messages and send transctions.
 
