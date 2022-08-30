@@ -1,4 +1,4 @@
-# This project utilizes AirQualityQuotient (AQQ) Tool and maps it with anonymized radiology chest X Rays data on Orthanc PACS server for early detection of respiratory diseases and infections.
+# This project utilizes AirQualityQuotient (AQQ) Tool built using AMAZON ASDI OpenAQ dataset and maps it with anonymized radiology chest X Rays data on Orthanc PACS server for early detection of respiratory diseases and infections.
 
 We wish to provide meaningful insights and tools leveraging "ASDI OpenAQ" dataset on how air quality of the city has changed over the years. This will empower  citizens with necessary information to question policy makers and bring about a change for the better and increase livability and sustainabilty of the city.
 
