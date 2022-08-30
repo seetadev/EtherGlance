@@ -1,0 +1,15 @@
+#graft cbWeb
+#graft ../src/cbPyLib/cbWeb/
+#include ../src/cbPyLib/cellbrowser/cbWeb/*.js
+graft src/cbPyLib/cellbrowser/cbWeb
+graft src/cbPyLib/cellbrowser/sampleConfig
+#include ../src/cbPyLib/cellbrowser/sampleConfig/cellbrowser.conf
+#include ../src/cbPyLib/cellbrowser/sampleConfig/scanpy.conf
+#include ../src/cbPyLib/cellbrowser/sampleConfig/seurat.conf
+#include cellbrowser/sampleConfig/cellbrowser.conf
+#include cellbrowser/sampleConfig/scanpy.conf
+##include cellbrowser/sampleConfig/seurat.conf
+include versioneer.py
+include LICENSE
+include src/cbPyLib/cellbrowser/_version.py
+graft src/cbPyLib/cellbrowser/R
