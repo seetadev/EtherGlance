@@ -1,6 +1,4 @@
-# nft.storage tools
-
-Tools for working with nft.storage.
+NFT.Storage: NFT.Storage: We are using NFT.Storage for storing a variety of offchain data like anonymized patient metadata, medication logs and patient registration at the time of hospital visit. We are storing patient logs and metadata using NFT.Storage. Also, Saving/deleting patient metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. Please visit: https://github.com/seetadev/EtherGlance/tree/main/patientmetadatanftstorage
 
 ## Usage
 
