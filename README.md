@@ -2,7 +2,7 @@
 
 Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, AWS ASDI OpenAQ and UCSC Genome Browser datasets and open source spreadsheet (EtherCalc) solutions. 
 
-AMAZON ASDI OpenAQ dataset initiative: 
+AMAZON ASDI OpenAQ dataset initiative: Please visit https://github.com/seetadev/EtherGlance/tree/main/AWSASDImodule
 1. This project utilizes AirQualityQuotient (AQQ) Tool built using AMAZON ASDI OpenAQ dataset and maps it with anonymized radiology chest X Rays data on Orthanc PACS server for early detection of respiratory diseases and infections. 
 2. This project also uses UCSC genome browser for sequence and annotations and viewing single cell data. We can click on and hover over cells to get meta information, search for genes to color on and click clusters to show cluster-specific marker genes.
 
