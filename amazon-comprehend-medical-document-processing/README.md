@@ -1,6 +1,15 @@
-# AWS ML Healthcare Workshop
+# AWS Comprehend: 
 
-## Introduction
+We are using Amazon Comprehend Medical to detect and return medical information from the following AWS apps developed by us:
+1. Medication Log: http://aspiringapps.com/web/home/medication-log.html
+2. Medical Notes: http://aspiringapps.com/web/home/medical-notes.html
+3. Medical Invoice: http://aspiringapps.com/web/home/medical-invoice.html
+4. Patient Sign In: http://aspiringapps.com/web/home/patient-signin.html
+5. Diabetic Plus: http://aspiringapps.com/web/home/diabetic-plus.html
+6. Blood Sugar Log: http://aspiringapps.com/web/home/blood-sugar.html
+7. Nutrition Tracker: http://aspiringapps.com/web/home/nutrition-tracker.html
+
+Unstructured clinical text such as physicians notes, discharge summaries, test results, and case notes can be derived using AWS Comprehend. Amazon Comprehend Medical uses natural language processing (NLP) models to detect entities, which are textual references to medical information such as medical conditions, medications, or Protected Health Information (PHI).
 
 
 #### Machine learning in healthcare 
