@@ -2,6 +2,19 @@
 
 Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, AWS Comprehend, Sagemaker, AWS ASDI OpenAQ and UCSC Genome Browser datasets and OSS spreadsheet (EtherCalc) solutions. 
 
+# AWS Comprehend: 
+
+We are using Amazon Comprehend Medical to detect and return medical information from the following AWS apps developed by us:
+1. Medication Log: http://aspiringapps.com/web/home/medication-log.html
+2. Medical Notes: http://aspiringapps.com/web/home/medical-notes.html
+3. Medical Invoice: http://aspiringapps.com/web/home/medical-invoice.html
+4. Patient Sign In: http://aspiringapps.com/web/home/patient-signin.html
+5. Diabetic Plus: http://aspiringapps.com/web/home/diabetic-plus.html
+6. Blood Sugar Log: http://aspiringapps.com/web/home/blood-sugar.html
+7. Nutrition Tracker: http://aspiringapps.com/web/home/nutrition-tracker.html
+
+Unstructured clinical text such as physicians notes, discharge summaries, test results, and case notes can be derived using AWS Comprehend. Amazon Comprehend Medical uses natural language processing (NLP) models to detect entities, which are textual references to medical information such as medical conditions, medications, or Protected Health Information (PHI). Please visit: https://github.com/seetadev/EtherGlance/tree/main/amazon-comprehend-medical-document-processing
+
 AMAZON ASDI OpenAQ dataset initiative: Please visit https://github.com/seetadev/EtherGlance/tree/main/AWSASDImodule
 1. This project utilizes AirQualityQuotient (AQQ) Tool built using AMAZON ASDI OpenAQ dataset and maps it with anonymized radiology chest X Rays data on Orthanc PACS server for early detection of respiratory diseases and infections. 
 2. This project also uses UCSC genome browser for sequence and annotations and viewing single cell data. We can click on and hover over cells to get meta information, search for genes to color on and click clusters to show cluster-specific marker genes.
