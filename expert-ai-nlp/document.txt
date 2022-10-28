@@ -1,0 +1,18 @@
+There are several hyerechoic calcific foci within the gallbladder with  
+significant posterior acoustic shadowing in keeping with cholecystolithiasis.
+*input*  
+There are several hyerechoic calcific foci within the gallbladder with significant posterior acoustic shadowing in keeping with cholecystolithiasis.  
+*output*  
+There are several dense objects typical of gallstones within the gallbladder.  
+*input*  
+The lungs and pleura are clear and the cardiomedistinal silhouette is unremarkable. No rib lesions.  
+*output*  
+Normal chest X-ray. 
+*input*  
+No mass, haemorrhage or hydrocephalus. Basal ganglia and posterior fossa structures are normal. No established major vessel vascular territory infarct. No intra or extra axial collection. The basal cisterns and foramen magnum are patent. The air cells of the petrous temporal bone are non-opacified. No fracture demonstrated.  
+*output*  
+Normal CT head.  
+*input*  
+Low signal intensity foci seen in the posterior aspect of the peripheral zone at the level of the mid gland toward the apex measuring 0.9 cm on the left and 0.9 cm on the right with associated early enhancement and possible restricted diffusion. Findings are concerning for neoplastic foci.
+*output*  
+There are a couple of areas which could be cancerous in the outer part of the prostate.  
