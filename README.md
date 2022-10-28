@@ -1,6 +1,6 @@
 # EtherGlance
 
-Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, AWS Comprehend, Sagemaker, AWS ASDI OpenAQ and UCSC Genome Browser datasets and OSS spreadsheet (EtherCalc) solutions. 
+Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, AWS Comprehend, Sagemaker, AWS ASDI OpenAQ and UCSC Genome Browser datasets, Expert.ai NLP APIs for getting insights from radiology reports and OSS spreadsheet (EtherCalc) solutions. 
 
 # AWS Comprehend: 
 
@@ -14,6 +14,8 @@ We are using Amazon Comprehend Medical to detect and return medical information 
 7. Nutrition Tracker: http://aspiringapps.com/web/home/nutrition-tracker.html
 
 Unstructured clinical text such as physicians notes, discharge summaries, test results, and case notes can be derived using AWS Comprehend. Amazon Comprehend Medical uses natural language processing (NLP) models to detect entities, which are textual references to medical information such as medical conditions, medications, or Protected Health Information (PHI). Please visit: https://github.com/seetadev/EtherGlance/tree/main/amazon-comprehend-medical-document-processing
+
+Expert.ai NL APIs: We are using Expert.ai NL APIs for getting insights from radiology reports: https://github.com/seetadev/EtherGlance/tree/main/expert-ai-nlp .  
 
 AMAZON ASDI OpenAQ dataset initiative: Please visit https://github.com/seetadev/EtherGlance/tree/main/AWSASDImodule
 1. This project utilizes AirQualityQuotient (AQQ) Tool built using AMAZON ASDI OpenAQ dataset and maps it with anonymized radiology chest X Rays data on Orthanc PACS server for early detection of respiratory diseases and infections. 
