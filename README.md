@@ -1,19 +1,7 @@
 # EtherGlance
 
-Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, AWS Comprehend, Sagemaker, AWS ASDI OpenAQ and UCSC Genome Browser datasets, Expert.ai NLP APIs for getting insights from radiology reports and OSS spreadsheet (EtherCalc) solutions. 
+Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, Internet Computer Protocol for encrypted app development, AWS ASDI OpenAQ and UCSC Genome Browser datasets, Expert.ai NLP APIs for getting insights from radiology reports and OSS spreadsheet (EtherCalc) solutions. 
 
-# AWS Comprehend: 
-
-We are using Amazon Comprehend Medical to detect and return medical information from the following AWS apps developed by us:
-1. Medication Log: http://aspiringapps.com/web/home/medication-log.html
-2. Medical Notes: http://aspiringapps.com/web/home/medical-notes.html
-3. Medical Invoice: http://aspiringapps.com/web/home/medical-invoice.html
-4. Patient Sign In: http://aspiringapps.com/web/home/patient-signin.html
-5. Diabetic Plus: http://aspiringapps.com/web/home/diabetic-plus.html
-6. Blood Sugar Log: http://aspiringapps.com/web/home/blood-sugar.html
-7. Nutrition Tracker: http://aspiringapps.com/web/home/nutrition-tracker.html
-
-Unstructured clinical text such as physicians notes, discharge summaries, test results, and case notes can be derived using AWS Comprehend. Amazon Comprehend Medical uses natural language processing (NLP) models to detect entities, which are textual references to medical information such as medical conditions, medications, or Protected Health Information (PHI). Please visit: https://github.com/seetadev/EtherGlance/tree/main/amazon-comprehend-medical-document-processing
 
 Expert.ai NL APIs: We are using Expert.ai NL APIs for getting insights from radiology reports: https://github.com/seetadev/EtherGlance/tree/main/expert-ai-nlp .  
 
@@ -32,7 +20,17 @@ Google Drive Link for Demos, Installation Steps and Solution architecture: https
 
 # Tech Stack and features
 
-We are utilizing a variety of key Ethereum tools and libraries: metamask, truffle, embark, nvm, node.js, filecoin, polygon, NFT.Storage, NFTPort, Sequence, 0vix, Chainlink, Fluence, Spheron, Tableland, ipfs, ethereum and a variety of blockchain protocols and systems. Our solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of data management bodies, PACS systems deployed at monitoring spots.  Coinex Smart Chain: https://github.com/seetadev/EtherGlance/tree/main/CoinexCSC-Audit
+We are utilizing a variety of key Ethereum tools and libraries and Internet Computer Protocol for encrypted solution modules and app development: metamask, truffle, embark, nvm, node.js, filecoin, polygon, NFT.Storage, NFTPort, Sequence, 0vix, Chainlink, Fluence, Spheron, Tableland, ipfs, ethereum and a variety of blockchain protocols and systems. Our solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of data management bodies, PACS systems deployed at monitoring spots.  
+
+Internet Computer Protocol for encrypted solution modules and app development: https://github.com/seetadev/EtherGlance/tree/main/icp
+
+1. Encrypted Medical Notes solution module using ICP: https://github.com/seetadev/EtherGlance/tree/main/icp/encrypted-medical-notes-dapp
+
+2. Medical Invoice Canister: https://github.com/seetadev/EtherGlance/tree/main/icp/medical-invoice-canister
+
+3. Medical Ledger Transfer using ICP: https://github.com/seetadev/EtherGlance/tree/main/icp/medical-ledger-transfer
+
+4. Hosting of the modules by extending the basic example template (https://github.com/seetadev/EtherGlance/tree/main/icp/static-ehrs-website ) and statistics visualization by extending the unity webgl template: https://github.com/seetadev/EtherGlance/tree/main/icp/unity-webgl-ehrs-visualization 
 
 Our app provides the requisites features to share medical conditions of the patient and remotely monitor the patient management policies in a place using used phones and tablets, alarm clocks, internet connection, sync service, integration with IP cameras, raise safety alarms. The cost of deployment and added technology is limited which could help the families living in a variety of geographical regions. We are utilizing SocialCalc, one of our open source spreadsheet projects and customize it for developing medical monitoring and patient management application. Features include Tabulation that enables the user to enter and edit data in a tabular format; Organization that enables the user to organize the tabular matter in several forms, Facilitates sorting of numeric data, comments to increase ease of understanding of data, names to access data in different modalities, clipboard function; Collaboration and the ability to support sharing of data over the network and multi-user editing and Interoperability between SocialCalc and Excel (.xls format), csv format. Quality Assurance: Our serverless solution equips with two general purpose object detection engines detect symptom types in real-time; better accuracy a bit slower. Our software will turns any PACS system to a seasoned radiologist within the snap of a finger. IPFS; Ethereum is a seamless solution to keep data encrypted and place the immutable fingerprints into blockchain transactions. With just a cell phone, users are offered a serverless solution that can detect early stage symptoms in real time for better accuracy.
 
@@ -52,7 +50,11 @@ We have developed our solution based on a variety of blockchain protocols and so
 
 NFT.Storage: NFT.Storage: We are using NFT.Storage for storing a variety of offchain data like anonymized patient metadata, medication logs and patient registration at the time of hospital visit. We are storing patient logs and metadata using NFT.Storage. Also, Saving/deleting patient metadata and image to/from IPFS using NFT.Storage. We are also storing the hash returned from IPFS to Ethereum test network using NFT.Storage. Please visit: https://github.com/seetadev/EtherGlance/tree/main/patientmetadatanftstorage
 
-Spheron: We are developing decentralized patient management user interface with Spheron. Please visit: https://github.com/seetadev/EtherGlance/tree/main/decentralizedinfraviaspheron
+
+Fluence Network: We are using the fluence-js peer implementation in Typescript to connect with our ionic apps which uses typescript as the core for handling application logic. We are using Fluence Network as the Web3 cloud computing provider. 
+
+Please visit: https://github.com/seetadev/EtherGlance/tree/main/web3cloudwithfluencejsandionic/web3cloudwithfluencepeer-js
+https://github.com/seetadev/EtherGlance/tree/main/installation%20docs
 
 
 AWS: We are using AWS S3 for metadata and pdf data, EC2 for tornado + nginx deployment with AWS S3 db (please visit the key workflow apps with AWS backend: http://aspiringapps.com/web/home/patient-signin.html
@@ -62,22 +64,28 @@ http://aspiringapps.com/web/home/medication-log.html )
 Please visit: https://github.com/seetadev/EtherGlance/tree/main/installation%20docs
 
 
-
 Chainlink: We are connecting offchain data from medical counseling app (please visit the video {screencast decentralized medical counseling portal.mov} at https://drive.google.com/drive/folders/1Pk_JUngaOuO49nFRAn6MJgkvKGnlUA7V to our smart contracts using Chainlink. 
 Please visit: https://github.com/seetadev/EtherGlance/tree/main/Offchaindataconnectviachainlink/ConnectviaChainlinkhardhat
-
-
-
-Fluence Network: We are using the fluence-js peer implementation in Typescript to connect with our ionic apps which uses typescript as the core for handling application logic. We are using Fluence Network as the Web3 cloud computing provider. 
-
-Please visit: https://github.com/seetadev/EtherGlance/tree/main/web3cloudwithfluencejsandionic/web3cloudwithfluencepeer-js
-https://github.com/seetadev/EtherGlance/tree/main/installation%20docs
 
 
 Sequence Wallet: We are utilizing Sequence wallet for handling all extra service payments on top of expenses claimed via mediclaims or insurance. It is our go to wallet for handling counseling payments and third party payments like payments to diagnostic services, pathology services and pharmacy purchases.
 Please visit: https://github.com/seetadev/EtherGlance/tree/main/sequencequickswapforservicefee
 We also plan to integrate QuickSwap with Sequence wallet to ensure that the patient can swap the tokens if needed at the hospital site.
 
+# AWS Comprehend: 
+
+We are using Amazon Comprehend Medical to detect and return medical information from the following AWS apps developed by us:
+1. Medication Log: http://aspiringapps.com/web/home/medication-log.html
+2. Medical Notes: http://aspiringapps.com/web/home/medical-notes.html
+3. Medical Invoice: http://aspiringapps.com/web/home/medical-invoice.html
+4. Patient Sign In: http://aspiringapps.com/web/home/patient-signin.html
+5. Diabetic Plus: http://aspiringapps.com/web/home/diabetic-plus.html
+6. Blood Sugar Log: http://aspiringapps.com/web/home/blood-sugar.html
+7. Nutrition Tracker: http://aspiringapps.com/web/home/nutrition-tracker.html
+
+Unstructured clinical text such as physicians notes, discharge summaries, test results, and case notes can be derived using AWS Comprehend. Amazon Comprehend Medical uses natural language processing (NLP) models to detect entities, which are textual references to medical information such as medical conditions, medications, or Protected Health Information (PHI). Please visit: https://github.com/seetadev/EtherGlance/tree/main/amazon-comprehend-medical-document-processing
+
+Spheron: We are developing decentralized patient management user interface with Spheron. Please visit: https://github.com/seetadev/EtherGlance/tree/main/decentralizedinfraviaspheron
 
 
 
