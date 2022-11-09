@@ -1,8 +1,4 @@
-# april-blog
-
-A Blog Platform runs on the top of RSS3
-
-
+We are extending and adapting the RSS3 powered blog platform and integrating it with medical notes application powered by tableland in the EtherGlance project. Please find the demo at EtherGlance directory at https://drive.google.com/drive/u/3/folders/196Mdygxm-ayOp34myifY2LjxoBb6kG84
 
 # Project Setup
 
