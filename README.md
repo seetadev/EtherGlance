@@ -1,7 +1,11 @@
 # EtherGlance
 
-Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, Internet Computer Protocol for encrypted app development, AWS ASDI OpenAQ and UCSC Genome Browser datasets, Expert.ai NLP APIs for getting insights from radiology reports and OSS spreadsheet (EtherCalc) solutions. 
+Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, Internet Computer Protocol for encrypted app development, AWS ASDI OpenAQ and UCSC Genome Browser datasets, Near blockchain Protocol and expert.ai NLP APIs for getting insights from radiology reports and OSS spreadsheet (EtherCalc) solutions. 
 
+
+Near protocol integration: Fluence JS peer based on the NEAR API JS and distributed Wasm services wrapping the NEAR RPC API. We are utilizing Near Protocol to receive feedback on medication log reports by medical experts, store feedback details from both experts and experienced doctors in order to enable early stage detection and prevention of diseases. 
+
+We are also utilizing Near Protocol to receive feedback reports by medical experts, store feedback details from both experts, doctors on the reports in order to enable early stage prevention of diseases.
 
 Expert.ai NL APIs: We are using Expert.ai NL APIs for getting insights from radiology reports: https://github.com/seetadev/EtherGlance/tree/main/expert-ai-nlp .  
 
