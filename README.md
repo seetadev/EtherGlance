@@ -57,6 +57,14 @@ Please visit: https://github.com/seetadev/EtherGlance/tree/main/web3cloudwithflu
 https://github.com/seetadev/EtherGlance/tree/main/installation%20docs
 
 
+# Near Blockchain
+
+Near protocol integration: Fluence JS peer based on the NEAR API JS and distributed Wasm services wrapping the NEAR RPC API. We are utilizing Near Protocol to receive feedback on medication log reports by medical experts, store feedback details from both experts and experienced doctors in order to enable early stage detection and prevention of diseases. 
+
+We are also utilizing Near Protocol to receive feedback reports by medical experts, store feedback details from both experts, doctors on the reports in order to enable early stage prevention of diseases.
+
+
+
 AWS: We are using AWS S3 for metadata and pdf data, EC2 for tornado + nginx deployment with AWS S3 db (please visit the key workflow apps with AWS backend: http://aspiringapps.com/web/home/patient-signin.html
 http://aspiringapps.com/web/home/medical-notes.html
 http://aspiringapps.com/web/home/medical-invoice.html
