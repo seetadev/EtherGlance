@@ -1,0 +1,92 @@
+.hr {
+  width: 95%;
+  height: 2px;
+  background-color: white;
+}
+
+.walletSelectMain {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 95%;
+  align-items: center;
+}
+.walletSelectMain > * {
+  margin: 5px;
+}
+.walletSelectInput {
+  height: 40px;
+}
+.walletSelectInputContainer {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column nowrap;
+}
+.walletSelectInputContainerGreen {
+  border-radius: 2px;
+  border: 3px solid green;
+}
+.walletSelectButton,
+.walletSelectStatus {
+  border-radius: 2px;
+  border: 2px solid white;
+  height: 40px;
+  background-color: white;
+}
+.walletSelectButton > img,
+.walletSelectStatus > img {
+  height: 100%;
+}
+.walletSelectInput {
+}
+
+.imgLoading {
+  height: 20px;
+  max-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+  align-items: center;
+  justify-content: center;
+}
+.imgLoadingBig {
+  height: 5rem;
+}
+
+.imgLoadingItem {
+  height: 100%;
+  width: 4px;
+  border-radius: 3px;
+  background-color: #000;
+  margin-right: 2px;
+  animation: wave 1s linear infinite;
+}
+
+.imgLoadingItem:nth-child(1) {
+  animation-delay: 0.2s;
+  height: 40%;
+}
+.imgLoadingItem:nth-child(2) {
+  animation-delay: 0.1s;
+  height: 80%;
+}
+.imgLoadingItem:nth-child(3) {
+}
+.imgLoadingItem:nth-child(4) {
+  animation-delay: 0.1s;
+  height: 80%;
+}
+.imgLoadingItem:nth-child(5) {
+  animation-delay: 0.2s;
+  height: 40%;
+}
+@keyframes wave {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,13 @@
+.btnContainer {
+  border-radius: 2px;
+  border: 2px solid white;
+  height: 30px;
+  background-color: #2e026d;
+}
+.btnContainer > svg {
+  height: 100%;
+}
+.btnContainer:hover {
+  transform: translateY(1px);
+  cursor: pointer;
+}

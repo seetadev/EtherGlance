@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.ul {
+  align-self: start;
+}
+
+.closeBtn {
+  align-self: end;
+  height: 40px;
+  width: 80px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.closeBtn:hover {
+  background-color: #ccc;
+  transform: translateY(1px);
+}
+
+.imageContainer {
+  height: 60px;
+  width: 60px;
+}
+
+.imageHandlerContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}

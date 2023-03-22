@@ -1,0 +1,28 @@
+.detailsMain {
+  overflow: hidden;
+  height: 51px;
+}
+
+.show {
+  overflow: visible;
+  height: auto;
+}
+
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+}
+
+.header > h2 {
+  margin: 0px;
+}
+
+.expandBtnContainer {
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.expandLess {
+  transform: rotate(180deg);
+}

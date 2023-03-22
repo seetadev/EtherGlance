@@ -1,0 +1,58 @@
+.walletSelectMain {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 95%;
+  align-items: center;
+}
+.walletSelectMain > * {
+  margin: 5px;
+}
+.walletSelectMain p {
+  margin: 0;
+}
+.walletSelectMainContainer {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 80%;
+}
+.walletSelectChain {
+  margin-right: auto;
+}
+.walletSelectInput {
+  height: 30px;
+}
+.walletSelectInputContainer {
+  flex-grow: 1;
+  margin-right: 5px;
+  /* display: flex; */
+  /* flex-flow: column nowrap; */
+}
+.walletSelectInputContainerGreen {
+  border-radius: 2px;
+  border: 1px solid green;
+}
+.walletSelectInputContainerRed {
+  border-radius: 2px;
+  border: 1px solid red;
+}
+.walletSelectButton,
+.walletSelectStatus {
+  border-radius: 2px;
+  border: 2px solid white;
+  height: 40px;
+  background-color: white;
+}
+.walletSelectButton > img,
+.walletSelectStatus > img {
+  height: 100%;
+}
+.select {
+  width: 100%;
+  height: 100%;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  min-width: 50px;
+  background-color: rgba(46, 2, 109, 0.5);
+  color: white;
+}

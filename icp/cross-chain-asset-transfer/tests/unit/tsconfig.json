@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "preserveSymLinks": true,
+    "module": "commonjs"
+  }
+}
