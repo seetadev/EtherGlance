@@ -1,4 +1,6 @@
-# Cross chain asset transfer by extending PUENTICON
+# Cross chain asset transfer
+
+We are extending extending PUENTICON to develop cross chain asset transfer between ICON and other key blockchains.
 
 ## Local development.
 
