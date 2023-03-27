@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+xrpl-py-lite/Eng.py
+xrpl-py-lite/Misc.py
+xrpl-py-lite/Wallet.py
+xrpl-py-lite/__init__.py
+xrpl_lite_py.egg-info/PKG-INFO
+xrpl_lite_py.egg-info/SOURCES.txt
+xrpl_lite_py.egg-info/dependency_links.txt
+xrpl_lite_py.egg-info/requires.txt
+xrpl_lite_py.egg-info/top_level.txt

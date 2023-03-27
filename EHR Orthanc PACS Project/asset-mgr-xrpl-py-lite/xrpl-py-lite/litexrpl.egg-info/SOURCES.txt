@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+litexrpl/Eng.py
+litexrpl/Misc.py
+litexrpl/Wallet.py
+litexrpl/__init__.py
+litexrpl.egg-info/PKG-INFO
+litexrpl.egg-info/SOURCES.txt
+litexrpl.egg-info/dependency_links.txt
+litexrpl.egg-info/requires.txt
+litexrpl.egg-info/top_level.txt

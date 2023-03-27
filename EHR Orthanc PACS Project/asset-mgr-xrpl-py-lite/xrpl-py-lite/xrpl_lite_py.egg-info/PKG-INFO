@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xrpl-lite-py
+Version: 0.0.1
+Summary: A lite XRPL SDK for python devs, to focus on developing real world applications, while keeping out the ambiguity
+Home-page: UNKNOWN
+Author: Obiajulu_M
+Author-email: oambanefo@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+
