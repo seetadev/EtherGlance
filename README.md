@@ -2,12 +2,19 @@
 
 Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, Internet Computer Protocol for encrypted app development, AWS ASDI OpenAQ and UCSC Genome Browser datasets, Near blockchain Protocol and expert.ai NLP APIs for getting insights from radiology reports and OSS spreadsheet (EtherCalc) solutions. 
 
+# Internet Computer Blockchain
 
-Near protocol integration: Fluence JS peer based on the NEAR API JS and distributed Wasm services wrapping the NEAR RPC API. We are utilizing Near Protocol to receive feedback on medication log reports by medical experts, store feedback details from both experts and experienced doctors in order to enable early stage detection and prevention of diseases. 
+We are utilizing Internet Computer blockchain for enabling the development of tools and utilities thereby empowering pharma companies and the medical eco-system to do medicine trial testing and clinical trials via blockchain enabled EMTTRs(Electronic Medicine Trial and Test Records as a Service), EHR and Radiology services.
 
-We are also utilizing Near Protocol to receive feedback reports by medical experts, store feedback details from both experts, doctors on the reports in order to enable early stage prevention of diseases.
+We utilize Internet Computer Blockchain and ICP developer tooling for data analytics, organization and visualization, ZKP and scrypt aided bitcoin wallet, decentralized storage for sorting information obtained from Picture Archiving and Communication Systems.
 
-Expert.ai NL APIs: We are using Expert.ai NL APIs for getting insights from radiology reports: https://github.com/seetadev/EtherGlance/tree/main/expert-ai-nlp .  
+We are developing a backend solution, where the radiology and diagnostic centers can boot a Linux OS by uploading it to an IC Canister.
+A virtual disk (An Ubuntu or Debian-minimal PXE image with associated configuration) is uploaded to an IC Canister.
+A target host talks to the DHCP server to get the location of the PXE image (ie TFTP server)
+PXE requests from the TFTP Server the files and sectors that it needs
+TFTP server translates those requests to talk to the IC canister holding the boot artifacts
+On the target host, using PXE, a guest VM will be allowed to boot and load its configuration from the TXE server.
+
 
 AMAZON ASDI OpenAQ dataset initiative: Please visit https://github.com/seetadev/EtherGlance/tree/main/AWSASDImodule
 1. This project utilizes AirQualityQuotient (AQQ) Tool built using AMAZON ASDI OpenAQ dataset and maps it with anonymized radiology chest X Rays data on Orthanc PACS server for early detection of respiratory diseases and infections. 
