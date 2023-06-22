@@ -20,6 +20,8 @@ TFTP server translates those requests to talk to the IC canister holding the boo
 
 On the target host, using PXE, a guest VM will be allowed to boot and load its configuration from the TXE server.
 
+Please visit: https://github.com/seetadev/EtherGlance/tree/main/icp/Diagnostic-Center-OS-IC-Canister
+
 
 Internet Computer Protocol for encrypted solution modules and app development: https://github.com/seetadev/EtherGlance/tree/main/icp
 
