@@ -1,6 +1,6 @@
 # EtherGlance
 
-Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using a variety of key blockchain protocols, Internet Computer Protocol for encrypted app development, AWS ASDI OpenAQ and UCSC Genome Browser datasets, Near blockchain Protocol and expert.ai NLP APIs for getting insights from radiology reports and OSS spreadsheet (EtherCalc) solutions. 
+Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using Internet Computer Blockchain and Web3 Tools.
 
 # Internet Computer Blockchain
 
