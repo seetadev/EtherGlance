@@ -1,0 +1,18 @@
+[package]
+name = "icboot"
+version = "0.1.0"
+edition = "2018"
+
+[profile.release]
+lto = true
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+ic-cdk = "0.3"
+ic-cdk-macros = "0.3"
+serde = "1.0.111"
+serde_bytes = "0.11"
+

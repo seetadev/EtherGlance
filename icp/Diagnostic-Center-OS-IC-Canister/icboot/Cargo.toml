@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "src/icboot",
+]
+
+[profile.release]
+lto = true

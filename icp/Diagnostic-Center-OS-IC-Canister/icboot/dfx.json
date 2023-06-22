@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "icboot": {
+      "build": "cargo build --target wasm32-unknown-unknown --package icboot --release",
+      "candid": "src/icboot/src/icboot.did",
+      "wasm": "target/wasm32-unknown-unknown/release/icboot.wasm",
+      "type": "custom"
+
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "dfx": "0.8.1",
+  "networks": {
+    "local": {
+      "bind": "127.0.0.1:8000",
+      "type": "ephemeral"
+    }
+  },
+  "version": 1
+}

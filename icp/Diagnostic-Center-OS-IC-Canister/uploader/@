@@ -1,0 +1,15 @@
+use std::fs::read_dir;
+
+fn path_walk(path: &str) {
+    if let Ok(paths) = read_dir(path) {
+        for path in paths {
+            println!("{}", path.unwrap().path().display());
+            path_walk(&path.unwrap().path().into_os_string().into_string().unwrap());
+        }
+    }
+}
+
+// /home/faraz/team_14/srv/tftp
+fn main() {
+    path_walk("/home/faraz/team_14/srv/tftp");
+}

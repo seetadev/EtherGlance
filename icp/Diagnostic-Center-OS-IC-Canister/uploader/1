@@ -1,0 +1,108 @@
+use ic_agent::Agent;
+use ic_cdk::export::candid::{CandidType, Decode, Deserialize, Encode, Nat, Principal};
+use std::process::Command;
+use std::{
+    fs::read_dir,
+    fs::File,
+    io::{self, BufRead, BufReader},
+};
+use tokio::task;
+
+async fn upload_file(path: &str) -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
+    const CAP: usize = 512;
+    let file = File::open(path)?;
+    let mut reader = BufReader::with_capacity(CAP, file);
+    let frontend_url = "http://127.0.0.1:8000";
+    let canister_id = Principal::from_text("ryjl3-tyaaa-aaaaa-aaaba-cai").unwrap();
+    let agent = Agent::builder()
+        .with_transport(
+            ic_agent::agent::http_transport::ReqwestHttpReplicaV2Transport::create(frontend_url)
+                .unwrap(),
+        )
+        .build()
+        .unwrap();
+    agent.fetch_root_key().await?;
+    let mut counter = 0;
+    loop {
+        let length = {
+            let buffer = reader.fill_buf()?;
+            let response =
+                create_chunk(&agent, &canister_id, path, Nat::from(counter), buffer).await;
+            println!("{:?}", response);
+            // do stuff with buffer here
+            buffer.len()
+        };
+        if length == 0 {
+            break;
+        }
+        counter = counter + 1;
+        reader.consume(length);
+    }
+    Ok(())
+}
+
+fn path_walk(path: &str, collector: &mut Vec<String>) {
+    if let Ok(paths) = read_dir(path) {
+        for path in paths {
+            let path_in = path.unwrap().path().into_os_string().into_string().unwrap();
+            let md = std::fs::metadata(path).unwrap();
+            if md.is_file() {
+                collector.push(path_in.clone());
+            }
+            if md.is_dir() {
+                path_walk(&path_in, collector);
+            }
+        }
+    }
+}
+
+#[derive(CandidType, Debug, Deserialize)]
+struct PutParam<'a> {
+    filename: &'a str,
+    sector_no: Nat,
+    data_vec: &'a [u8],
+}
+async fn create_chunk(
+    agent: &Agent,
+    canister_id: &Principal,
+    filename: &str,
+    sector_no: Nat,
+    content: &[u8],
+) -> Result<(), Box<dyn std::error::Error>> {
+    let args = PutParam {
+        filename,
+        sector_no,
+        data_vec: content,
+    };
+    let args = Encode!(&args)?;
+    let waiter = garcon::Delay::builder()
+        .throttle(std::time::Duration::from_millis(500))
+        .timeout(std::time::Duration::from_secs(60 * 5))
+        .build();
+
+    let response = agent
+        .update(&canister_id, "put")
+        .with_arg(&args)
+        .call_and_wait(waiter)
+        .await?;
+    Ok(())
+}
+
+// /home/faraz/team_14/srv/tftp
+#[tokio::main]
+async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
+    let mut paths = Vec::new();
+    path_walk("/home/faraz/team_14/srv/tftp", &mut paths);
+    let futures = Vec::new();
+    for path in paths {
+        println!("Uploading {}", &path);
+        futures.push(tokio::spawn(upload_file(&path)));
+    }
+
+    for x in futures {
+        x.await.unwrap();
+    }
+
+
+    Ok(())
+}

@@ -1,0 +1,7 @@
+service : {
+    "print": () -> () query;
+    "get": (record {filename: text; sector_no: nat; count: nat}) -> (blob) query;
+    "put": (record {filename: text; sector_no: nat; data_vec: blob}) -> ();
+    "setlen": (record {filename: text; len: nat}) -> ();
+    "listing": () -> (vec record {text; nat}) query;
+}
