@@ -9,11 +9,28 @@ We are utilizing Internet Computer blockchain for enabling the development of to
 We utilize Internet Computer Blockchain and ICP developer tooling for data analytics, organization and visualization, ZKP and scrypt aided bitcoin wallet, decentralized storage for sorting information obtained from Picture Archiving and Communication Systems.
 
 We are developing a backend solution, where the radiology and diagnostic centers can boot a Linux OS by uploading it to an IC Canister.
+
 A virtual disk (An Ubuntu or Debian-minimal PXE image with associated configuration) is uploaded to an IC Canister.
+
 A target host talks to the DHCP server to get the location of the PXE image (ie TFTP server)
+
 PXE requests from the TFTP Server the files and sectors that it needs
+
 TFTP server translates those requests to talk to the IC canister holding the boot artifacts
+
 On the target host, using PXE, a guest VM will be allowed to boot and load its configuration from the TXE server.
+
+
+Internet Computer Protocol for encrypted solution modules and app development: https://github.com/seetadev/EtherGlance/tree/main/icp
+
+1. Encrypted Medical Notes solution module using ICP: https://github.com/seetadev/EtherGlance/tree/main/icp/encrypted-medical-notes-dapp
+
+2. Medical Invoice Canister: https://github.com/seetadev/EtherGlance/tree/main/icp/medical-invoice-canister
+
+3. Medical Ledger Transfer using ICP: https://github.com/seetadev/EtherGlance/tree/main/icp/medical-ledger-transfer
+
+4. Hosting of the modules by extending the basic example template (https://github.com/seetadev/EtherGlance/tree/main/icp/static-ehrs-website ) and statistics visualization by extending the unity webgl template: https://github.com/seetadev/EtherGlance/tree/main/icp/unity-webgl-ehrs-visualization 
+
 
 
 AMAZON ASDI OpenAQ dataset initiative: Please visit https://github.com/seetadev/EtherGlance/tree/main/AWSASDImodule
@@ -29,19 +46,9 @@ Website 2: https://sites.google.com/view/emttrservice/home
 Google Drive Link for Demos, Installation Steps and Solution architecture: https://drive.google.com/drive/folders/1Pk_JUngaOuO49nFRAn6MJgkvKGnlUA7V
 
 
-# Tech Stack and features
+# Web3 Ecosystem Tools and features
 
 We are utilizing a variety of key Ethereum tools and libraries and Internet Computer Protocol for encrypted solution modules and app development: metamask, truffle, embark, nvm, node.js, filecoin, polygon, NFT.Storage, NFTPort, Sequence, 0vix, Chainlink, Fluence, Spheron, Tableland, ipfs, ethereum and a variety of blockchain protocols and systems. Our solution offers an Artificial Intelligence-based object detection system that utilizes blockchain solutions for sorting information obtained from a variety of data management bodies, PACS systems deployed at monitoring spots.  
-
-Internet Computer Protocol for encrypted solution modules and app development: https://github.com/seetadev/EtherGlance/tree/main/icp
-
-1. Encrypted Medical Notes solution module using ICP: https://github.com/seetadev/EtherGlance/tree/main/icp/encrypted-medical-notes-dapp
-
-2. Medical Invoice Canister: https://github.com/seetadev/EtherGlance/tree/main/icp/medical-invoice-canister
-
-3. Medical Ledger Transfer using ICP: https://github.com/seetadev/EtherGlance/tree/main/icp/medical-ledger-transfer
-
-4. Hosting of the modules by extending the basic example template (https://github.com/seetadev/EtherGlance/tree/main/icp/static-ehrs-website ) and statistics visualization by extending the unity webgl template: https://github.com/seetadev/EtherGlance/tree/main/icp/unity-webgl-ehrs-visualization 
 
 Our app provides the requisites features to share medical conditions of the patient and remotely monitor the patient management policies in a place using used phones and tablets, alarm clocks, internet connection, sync service, integration with IP cameras, raise safety alarms. The cost of deployment and added technology is limited which could help the families living in a variety of geographical regions. We are utilizing SocialCalc, one of our open source spreadsheet projects and customize it for developing medical monitoring and patient management application. Features include Tabulation that enables the user to enter and edit data in a tabular format; Organization that enables the user to organize the tabular matter in several forms, Facilitates sorting of numeric data, comments to increase ease of understanding of data, names to access data in different modalities, clipboard function; Collaboration and the ability to support sharing of data over the network and multi-user editing and Interoperability between SocialCalc and Excel (.xls format), csv format. Quality Assurance: Our serverless solution equips with two general purpose object detection engines detect symptom types in real-time; better accuracy a bit slower. Our software will turns any PACS system to a seasoned radiologist within the snap of a finger. IPFS; Ethereum is a seamless solution to keep data encrypted and place the immutable fingerprints into blockchain transactions. With just a cell phone, users are offered a serverless solution that can detect early stage symptoms in real time for better accuracy.
 
@@ -68,12 +75,9 @@ Please visit: https://github.com/seetadev/EtherGlance/tree/main/web3cloudwithflu
 https://github.com/seetadev/EtherGlance/tree/main/installation%20docs
 
 
-# Near Blockchain
-
 Near protocol integration: Fluence JS peer based on the NEAR API JS and distributed Wasm services wrapping the NEAR RPC API. We are utilizing Near Protocol to receive feedback on medication log reports by medical experts, store feedback details from both experts and experienced doctors in order to enable early stage detection and prevention of diseases. 
 
 We are also utilizing Near Protocol to receive feedback reports by medical experts, store feedback details from both experts, doctors on the reports in order to enable early stage prevention of diseases.
-
 
 
 AWS: We are using AWS S3 for metadata and pdf data, EC2 for tornado + nginx deployment with AWS S3 db (please visit the key workflow apps with AWS backend: http://aspiringapps.com/web/home/patient-signin.html
@@ -91,7 +95,7 @@ Sequence Wallet: We are utilizing Sequence wallet for handling all extra service
 Please visit: https://github.com/seetadev/EtherGlance/tree/main/sequencequickswapforservicefee
 We also plan to integrate QuickSwap with Sequence wallet to ensure that the patient can swap the tokens if needed at the hospital site.
 
-# AWS Comprehend: 
+AWS Comprehend: 
 
 We are using Amazon Comprehend Medical to detect and return medical information from the following AWS apps developed by us:
 1. Medication Log: http://aspiringapps.com/web/home/medication-log.html
