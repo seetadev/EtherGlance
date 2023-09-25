@@ -1,0 +1,37 @@
+{
+    "canisters": {
+        "icpbuilder": {
+            "type": "custom",
+            "build": "python -m kybra icpbuilder src/main.py src/main.did",
+            "candid": "src/main.did",
+            "wasm": ".kybra/icpbuilder/icpbuilder.wasm.gz",
+            "declarations": {
+                "output": "test/dfx_generated/icpbuilder"
+            }
+        },
+        "icpbuilder_frontend": {
+            "dependencies": [
+                "icpbuilder"
+            ],
+            "frontend": {
+                "entrypoint": "src/icpbuilder_frontend/src/index.html"
+            },
+            "source": [
+                "src/icpbuilder_frontend/assets",
+                "dist/icpbuilder_frontend/"
+            ],
+            "type": "assets"
+        },
+        "internet_identity": {
+            "type": "custom",
+            "candid": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity.did",
+            "wasm": "https://github.com/dfinity/internet-identity/releases/latest/download/internet_identity_dev.wasm.gz",
+            "remote": {
+                "id": {
+                    "ic": "rdmx6-jaaaa-aaaaa-aaadq-cai"
+                }
+            },
+            "frontend": {}
+        }
+    }
+}

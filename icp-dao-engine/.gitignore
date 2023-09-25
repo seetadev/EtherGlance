@@ -1,0 +1,9 @@
+dist/
+node_modules/
+.dfx/
+.kybra/
+.vscode/
+venv/
+src/main.did
+src/server/data/
+.DS_Store
