@@ -1,14 +1,7 @@
-# EtherGlance
+# Medical DAO
 
 Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using OpenText APIs, Internet Computer Blockchain and Web3 Tools.
 
-# OpenText APis
-
-Signature workflow in Medical Documents using Open Text API: We are building a docusign type workflow for medical documents powered by Vue.js, flask, Open Text API. We are extending the core signature demo workflow solution.
-
-Contract Approval Workflow Application for doctors: We are developing a contract approval application for doctors using OpenText Cloud Platform. We are consuming IM services from the OpenText Cloud Platform and extending the demo example. 
-
-OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. 
 
 # Internet Computer Blockchain
 
@@ -41,6 +34,14 @@ Internet Computer Protocol for encrypted solution modules and app development: h
 
 4. Hosting of the modules by extending the basic example template (https://github.com/seetadev/EtherGlance/tree/main/icp/static-ehrs-website ) and statistics visualization by extending the unity webgl template: https://github.com/seetadev/EtherGlance/tree/main/icp/unity-webgl-ehrs-visualization 
 
+
+# OpenText APis
+
+Signature workflow in Medical Documents using Open Text API: We are building a docusign type workflow for medical documents powered by Vue.js, flask, Open Text API. We are extending the core signature demo workflow solution.
+
+Contract Approval Workflow Application for doctors: We are developing a contract approval application for doctors using OpenText Cloud Platform. We are consuming IM services from the OpenText Cloud Platform and extending the demo example. 
+
+OCT SSO workflow: REST service calls required to login to OCP and access information management services (IMS) from OpenText. 
 
 
 AMAZON ASDI OpenAQ dataset initiative: Please visit https://github.com/seetadev/EtherGlance/tree/main/AWSASDImodule
