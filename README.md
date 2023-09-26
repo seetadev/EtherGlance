@@ -9,6 +9,12 @@ We are utilizing Internet Computer blockchain for enabling the development of to
 
 We utilize Internet Computer Blockchain and ICP developer tooling for data analytics, organization and visualization, ZKP and scrypt aided bitcoin wallet, decentralized storage for sorting information obtained from Picture Archiving and Communication Systems.
 
+Medical DAO platform using ICP and b3 wallet:
+
+DAOs create a RFP for providing medical counseling to the patients via an ICP enabled twitter like counseling dapp; Doctors can join a RFP by minting an NFT of that RFP. Doctors and Medical professionals that have a certain RFP's NFT are eligible to create proposals and vote on them.
+
+We have also developed an ICP Medical Wallet built using ICP, b3 wallet and Zokrates. ICP Medical wallet supports operations like the signing of the transaction and other cryptographic operations across multiple platforms and blockchains that improve the overall usability and interoperability. We used ICP, b3 wallet and Zokrates for building the ZK based ICP Medical Wallet. We are using b3 wallet platform as a payment solution build on ICP between doctors, medical service providers and patients. Also, as a payment solution between medical insurance providers and patients. Further, we have developed a dashboard for the doctors, patients & the medical insurance providers.
+
 We are developing a backend solution, where the radiology and diagnostic centers can boot a Linux OS by uploading it to an IC Canister.
 
 A virtual disk (An Ubuntu or Debian-minimal PXE image with associated configuration) is uploaded to an IC Canister.
