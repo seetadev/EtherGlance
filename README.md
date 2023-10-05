@@ -1,6 +1,6 @@
 # Medical DAO
 
-Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using OpenText APIs, Internet Computer Blockchain and Web3 Tools.
+Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using Bitcoin, Internet Computer Blockchain and Web3 Tools.
 
 
 # Internet Computer Blockchain
@@ -9,7 +9,7 @@ We are utilizing Internet Computer blockchain for enabling the development of to
 
 We utilize Internet Computer Blockchain and ICP developer tooling for data analytics, organization and visualization, ZKP and scrypt aided bitcoin wallet, decentralized storage for sorting information obtained from Picture Archiving and Communication Systems.
 
-Medical DAO platform using ICP and b3 wallet:
+Medical DAO platform using ICP and b3 wallet, a decentralized, multi-chain wallet with unique support for Bitcoin using Internet Computer’s threshold ECDSA. Also, direct swap for ckBTC/BTC and ICRC standard token, Manage multiple signers and account securely: 
 
 DAOs create a RFP for providing medical counseling to the patients via an ICP enabled twitter like counseling dapp; Doctors can join a RFP by minting an NFT of that RFP. Doctors and Medical professionals that have a certain RFP's NFT are eligible to create proposals and vote on them.
 
