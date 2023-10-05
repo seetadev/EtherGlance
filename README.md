@@ -1,4 +1,4 @@
-# Medical DAO
+# ICP Medical DAO
 
 Developer tool to enable tabulation, computation, visualization, data management for developers to build solutions for the bottom of pyramid in the areas of healthcare using Bitcoin, Internet Computer Blockchain and Web3 Tools.
 
