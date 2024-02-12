@@ -1,0 +1,20 @@
+{
+  "canisters": {
+    "backend": {
+      "type": "motoko",
+      "main": "backend/Backend.mo"
+    },
+    "frontend": {
+      "dependencies": ["backend"],
+      "type": "assets",
+      "source": ["dist/"]
+    }
+  },
+  "defaults": {
+    "build": {
+      "packtool": "npm run --silent sources"
+    }
+  },
+  "output_env_file": ".env",
+  "version": 2
+}
