@@ -27,6 +27,16 @@ The chain ID should be 1337. If you have a localhost rpc set up, you may need to
 
 ![MetaMask RPC Import](wallet.png)
 
+#### Codeanywhere
+To deploy this project to Codeanywhere, follow these steps:
+
+- Click this button to deploy:
+
+[![Open in Codeanywhere](https://codeanywhere.com/img/open-in-codeanywhere-btn.svg)](https://app.codeanywhere.com/#https://github.com/seetadev/EtherGlance)
+- Follow the on-screen instructions to set up the environment.
+
+
+
 #### Local setup
 
 To run this project locally, follow these steps.
